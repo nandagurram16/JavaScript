@@ -35,7 +35,7 @@ console.log(a)
 //ex 3
 function add(names){
     let sub='flower';
-    add==sub?console.log(true):console.log(false)
+    names==sub?console.log(true):console.log(false)
 }
 let b=add('lotus');
 console.log(b)
@@ -43,7 +43,7 @@ console.log(b)
 //ex 4
 function sub(names){
     let add='nanda'
-    sub==add?console.log('equal'):console.log('not equal')
+    names==add?console.log('equal'):console.log('not equal')
 }
 let man=sub('nanda');
 console.log(man)
@@ -52,10 +52,10 @@ console.log(man)
 
 function let(ename){
     let add='kumar';
-    if(let==add){
+    if(ename==add){
         return true
     }
-    else
+    else{
     return false
   }
   let d=let('kiran')
